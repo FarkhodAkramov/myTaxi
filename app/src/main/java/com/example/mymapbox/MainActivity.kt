@@ -77,10 +77,10 @@ class MainActivity : AppCompatActivity() {
         locationPermissionHelper.checkPermissions {
             onMapReady()
         }
-        binding.zoomPlus.setOnClickListener {
+        binding.zoomIn.setOnClickListener {
             zoomChanger(2)
         }
-        binding.zoomMines.setOnClickListener {
+        binding.zoomOut.setOnClickListener {
             zoomChanger(-2)
         }
     }
